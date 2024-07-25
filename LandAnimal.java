@@ -4,10 +4,10 @@ public class LandAnimal extends Animal {
         return "Swings on tree";
     }
     public static void main(String[] args) {
-        LandAnimal lion = new LandAnimal();
-        lion.name = "Leo";
-        LandAnimal monkey = new LandAnimal();
-        System.out.println(lion.move());
-        System.out.println(monkey.move());
+        LandAnimal tiger = new LandAnimal();
+        lion.name = "tigris";
+        LandAnimal ape = new LandAnimal();
+        System.out.println(tiger.move());
+        System.out.println(ape.move());
     }
 }
